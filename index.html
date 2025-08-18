@@ -9,10 +9,10 @@
 		<title>Gesangverein Weppersdorf</title>
 	</head>
 	<body class="bg-gv-bg">
-		<header class="flex flex-nowrap items-center bg-white p-4 drop-shadow-md justify-between sticky top-0 z-30">
+		<header class="flex flex-nowrap items-center bg-white p-4 lg:p-8 lg:pl-10 lg:pr-10 drop-shadow-md justify-between sticky top-0 z-30">
 			<h1 class="font-semibold text-dt-5 lg:text-dt-3">Gesangverein Weppersdorf</h1>
 			<button id="menuButton" class="flex z-50 text-dt-4 min-[1190px]:hidden"><span class="icon">menu</span></button>
-			<div class="hidden md:hidden lg:flex lg:items-center">
+			<div class="hidden min-[1190px]:flex lg:items-center">
 				<button class="min-[1290px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Startseite</button>
 				<button class="min-[1290px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Über Uns</button>
 				<button class="min-[1290px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Mitglieder</button>
@@ -21,6 +21,33 @@
 				<button class="min-[1290px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal">Kontakt</button>
 			</div>
 		</header>
+		<section class="w-full h-500 flex flex-col items-start justify-start p-5 lg:p-10 lg:flex-row">
+			<div class="w-full h-auto lg:w-2/3 lg:h-full">
+				<h1 class="text-dt-3 lg:text-dt-1">GESANGVEREIN <br> WEPPERSDORF</h1>
+				<p class="text-onyx text-dt-6 mt-5 lg:text-dt-5">Seit 100 Jahren verbindet unser traditionsreicher Männerchor leidenschaftliche Sänger durch die Kraft der gemeinsamen Stimme und geteilten Harmonie.</p>
+				<div class="flex w-full h-fit">
+					<button class="bg-dark-turquoise rounded-3 flex items-center text-white p-3 text-dt-7 mt-5 lg:text-dt-5"><span class="icon text-dt-6 mr-2 lg:text-dt-4">music_note</span> Mitglied werden</button>
+					<button class="bg-white rounded-3 border-1 border-gv-border flex items-center text-black p-3 text-dt-7 mt-5 ml-6 lg:text-dt-5"><span class="icon text-dt-6 mr-2 lg:text-dt-4">calendar_today</span> Veranstaltungen</button>
+				</div>
+				<div class="w-full h-0.5 bg-gv-border mt-5"><!--Separator--></div>
+				<div class="w-full h-fit flex items-center justify-around mt-5">
+					<div class="flex flex-col items-center">
+						<p class="text-dt-5 lg:text-dt-4 text-black">19</p>
+						<p class="text-dt-8 lg:text-dt-6 text-black mt-3">Aktive Mitglieder</p>
+					</div>
+					<div class="flex flex-col items-center">
+						<p class="text-dt-5 lg:text-dt-4 text-black">100</p>
+						<p class="text-dt-8 lg:text-dt-6 text-black mt-3">Jahre Tradition</p>
+					</div>
+					<div class="flex flex-col items-center">
+						<p class="text-dt-5 lg:text-dt-4 text-black">100+</p>
+						<p class="text-dt-8 lg:text-dt-6 text-black mt-3">Auftritte</p>
+					</div>
+				</div>
+			</div>
+			<img class="rounded-1 mt-5 lg:w-6/12 lg:ml-10" src="https://images.unsplash.com/photo-1753182909370-52cf615f731f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gruppen Foto des Gesangverein Weppersdorf">
+		</section>
+		<section></section>
 		<!-- Mobile nav menu stuff -->
 		<div id="mobileMenu" class="fixed top-0 right-0 h-full w-3/4 bg-white flex flex-col items-end p-5 transform translate-x-full transition-transform duration-500 ease-out min-[1190px]:hidden z-101">
 			<button id="closeMenu" class="text-dt-3 flex items-center cursor-pointer font-medium">Schließen <span class="icon text-dt-2 ml-2 font-semibold">close</span></button>
