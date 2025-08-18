@@ -19,7 +19,7 @@
   --color-gv-footer-accent: #353535;
   --color-gv-footer-shade: #BEBEBE;
   --color-gv-input-bg: #D9D9D9;
-  /* Font Sizes Desktop */
+  /* Font Sizes */
   --text-dt-1: 50px;
   --text-dt-2: 40px;
   --text-dt-3: 30px;
@@ -29,21 +29,15 @@
   --text-dt-7: 14px;
   --text-dt-8: 12px;
   --text-dt-9: 10px;
-  /* Font Sizes Mobile*/
-  --text-mb-1: 50px;
-  --text-mb-2: 40px;
-  --text-mb-3: 30px;
-  --text-mb-4: 24px;
-  --text-mb-5: 20px;
-  --text-mb-6: 16px;
-  --text-mb-7: 14px;
-  --text-mb-8: 12px;
-  --text-mb-9: 10px;
   /* Border radius */
   --radius-1: 10px;
   --radius-2: 8px;
   --radius-3: 5px;
   --radius-circle: 100px;
+
+  /* Breakpoints */
+  /*--breakpoint-lg: 1024px;*/
+  --breakpoint-3xl: 120rem;
 }
 
 :root {
@@ -52,4 +46,17 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.icon {
+  font-family: 'Material Symbols Rounded' !important;
+  font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
 }
