@@ -1,14 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
 
+@theme {
+  /*Colors*/
+  --color-dark-turquoise: #00CED1;
+  --color-gv-bg: #F8F8F8;
+  --color-onyx: #343839;
+  --color-gv-blue: #1100FF;
+  --color-gv-blue-light: #005EEA;
+  --color-gv-green: #00650C;
+  --color-gv-green-light: #27C200;
+  --color-gv-yellow: #9C7800;
+  --color-gv-yellow-light: #EAB400;
+  --color-gv-purple: #65007E;
+  --color-gv-purple-light: #B75EA6;
+  --color-gv-border: #DEDEDE;
+  --color-gv-footer-bg: #161616;
+  --color-gv-footer-accent: #353535;
+  --color-gv-footer-shade: #BEBEBE;
+  --color-gv-input-bg: #D9D9D9;
+  /* Font Sizes Desktop */
+  --text-dt-1: 50px;
+  --text-dt-2: 40px;
+  --text-dt-3: 30px;
+  --text-dt-4: 24px;
+  --text-dt-5: 20px;
+  --text-dt-6: 16px;
+  --text-dt-7: 14px;
+  --text-dt-8: 12px;
+  --text-dt-9: 10px;
+  /* Font Sizes Mobile*/
+  --text-mb-1: 50px;
+  --text-mb-2: 40px;
+  --text-mb-3: 30px;
+  --text-mb-4: 24px;
+  --text-mb-5: 20px;
+  --text-mb-6: 16px;
+  --text-mb-7: 14px;
+  --text-mb-8: 12px;
+  --text-mb-9: 10px;
+  /* Border radius */
+  --radius-1: 10px;
+  --radius-2: 8px;
+  --radius-3: 5px;
+  --radius-circle: 100px;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  font-family: "Poppins", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
