@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 	<head>
 		<meta charset="UTF-8"/>
 		<link rel="icon" type="image/svg+xml" href="/gesangverein_weppersdorf.svg"/>
@@ -13,21 +13,21 @@
 			<h1 class="font-semibold text-dt-5 lg:text-dt-3">Gesangverein Weppersdorf</h1>
 			<button id="menuButton" class="flex z-50 text-dt-4 min-[1190px]:hidden"><span class="icon">menu</span></button>
 			<div class="hidden min-[1190px]:flex lg:items-center">
-				<button class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Startseite</button>
-				<button class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Über Uns</button>
-				<button class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Mitglieder</button>
-				<button class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Veranstaltungen</button>
-				<button class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Musik</button>
-				<button class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal">Kontakt</button>
+				<a href="#startseite" class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Startseite</a>
+				<a href="#über_uns" class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Über Uns</a>
+				<a href="#mitglieder" class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Mitglieder</a>
+				<a href="#veranstaltungen" class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Veranstaltungen</a>
+				<a href="#musik" class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal mr-5">Musik</a>
+				<a href="#kontakt" class="min-[1300px]:text-dt-4 text-dt-5 flex bg-transparent border-none outline-none text-onyx font-normal">Kontakt</a>
 			</div>
 		</header>
-		<section class="w-full h-auto flex flex-col items-start justify-start p-5 lg:p-10 lg:flex-row">
+		<section id="startseite" class="scroll-mt-25 w-full h-auto flex flex-col items-start justify-start p-5 lg:p-10 lg:flex-row">
 			<div class="w-full h-auto lg:w-2/3 lg:h-full">
 				<h1 class="text-dt-3 lg:text-dt-1">GESANGVEREIN <br> WEPPERSDORF</h1>
 				<p class="text-onyx text-dt-6 mt-5 lg:text-dt-5">Seit 100 Jahren verbindet unser traditionsreicher Männerchor leidenschaftliche Sänger durch die Kraft der gemeinsamen Stimme und geteilten Harmonie.</p>
 				<div class="flex w-full h-fit">
-					<button class="bg-gv-dark-turquoise rounded-3 flex items-center text-white p-3 text-dt-8 mt-5 lg:text-dt-5"><span class="icon text-dt-7 mr-2 lg:text-dt-4">music_note</span> Mitglied werden</button>
-					<button class="bg-white rounded-3 border-1 border-gv-border flex items-center text-black p-3 text-dt-8 mt-5 ml-6 lg:text-dt-5"><span class="icon text-dt-7 mr-2 lg:text-dt-4">calendar_today</span> Veranstaltungen</button>
+					<a href="/gesangverein_weppersdorf.svg" download class="cursor-pointer bg-gv-dark-turquoise rounded-3 flex items-center text-white p-3 text-dt-8 mt-5 lg:text-dt-5"><span class="icon text-dt-7 mr-2 lg:text-dt-4">music_note</span> Mitglied werden</a>
+					<button class="cursor-pointer bg-white rounded-3 border-1 border-gv-border flex items-center text-black p-3 text-dt-8 mt-5 ml-6 lg:text-dt-5"><span class="icon text-dt-7 mr-2 lg:text-dt-4">calendar_today</span> Veranstaltungen</button>
 				</div>
 				<div class="w-full h-0.5 bg-gv-border mt-5"><!--Separator--></div>
 				<div class="w-full h-fit flex items-center justify-around mt-5">
@@ -47,7 +47,7 @@
 			</div>
 			<img class="rounded-1 mt-5 lg:w-6/12 lg:ml-10" src="https://images.unsplash.com/photo-1753182909370-52cf615f731f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gruppen Foto des Gesangverein Weppersdorf">
 		</section>
-		<section class="w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
+		<section id="über_uns" class="scroll-mt-25 w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
 			<h1 class="text-dt-4 text-center font-medium lg:font-light lg:text-dt-2">Über den Gesangverein Weppersdorf</h1>
 			<p class="text-onyx text-dt-7 text-center mt-4 lg:max-w-1/2 lg:text-dt-5">Gegründet im Jahr 1924, hat sich der Gesangverein Weppersdorf als reiner Männerchor von einer kleinen Gruppe musikbegeisterter Männer zu einem angesehenen Traditionschor entwickelt, der unsere Gemeinde und darüber hinaus mit Freude, Kultur und künstlerischer Exzellenz bereichert.</p>
 			<div class="flex flex-col w-11/12 mt-6 h-fit justify-start items-center min-[1190px]:w-8/12 min-[1190px]:mt-16 min-[1190px]:flex-row min-[1190px]:items-stretch">
@@ -91,7 +91,7 @@
 				</ul>
 			</div>
 		</section>
-		<section class="w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
+		<section id="mitglieder" class="scroll-mt-25 w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
 			<h1 class="text-dt-4 font-medium text-center lg:text-dt-2 lg:font-light">Lernen Sie unseren Chor kennen</h1>
 			<p class="text-center text-onyx text-dt-7 mt-6 lg:text-dt-5 lg:max-w-6/12">Unsere vielfältige Gruppe von Sängern kommt aus allen Lebensbereichen zusammen, vereint durch die gemeinsame Liebe zur Musik und Gemeinschaft.</p>
 			<h2 class="text-dt-5 font-light lg:text-dt-3 mt-8">Vereinsleitung</h2>
@@ -142,7 +142,7 @@
 				<p class="text-onyx text-dt-7 font-medium mt-2 lg:text-dt-5">Ort: Familie Malter, Weppersdorf 27</p>
 			</div>
 		</section>
-		<section class="w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
+		<section id="veranstaltungen" class="scroll-mt-25 w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
 			<h1 class="text-center text-dt-4 font-medium lg:text-dt-2 lg:font-light">Kommende Veranstaltungen</h1>
 			<p class="text-onyx text-center text-dt-7 lg:text-dt-5 mt-4 lg:max-w-6/12">Besuchen Sie uns bei unseren kommenden Auftritten und erleben Sie die Magie der live dargebotenen Chormusik. Von intimen Gemeinschaftsveranstaltungen bis hin zu großen Konzertsaalaufführungen.</p>
 			<div class="w-full h-fit flex flex-col items-center justify-start min-[1700px]:flex-row bg-white rounded-1 border-gv-border border-2 p-4 mt-8 min-[1700px]:items-stretch min-[1700px]:p-6 lg:w-3/4">
@@ -198,7 +198,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
+		<section id="musik" class="scroll-mt-25 w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
 			<h1 class="text-dt-4 font-medium lg:text-dt-2 lg:font-light">Unsere Musik</h1>
 			<p class="text-center font-regular text-dt-8 text-onyx mt-4 lg:text-dt-5 lg:max-w-1/2">Entdecken Sie unser vielfältiges musikalisches Repertoire von klassischen Meisterwerken über deutsche Volkslieder bis hin zu zeitgenössischen Favoriten und traditionellen Liedern aus aller Welt.</p>
 			<h2 class="mt-6 font-light text-dt-5 lg:text-dt-3">Unser Repertoire</h2>
@@ -293,7 +293,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
+		<section id="kontakt" class="scroll-mt-25 w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10">
 			<h1 class="text-dt-4 font-medium lg:text-dt-2 lg:font-light">Kontakt</h1>
 			<p class="text-dt-8 text-onyx text-center mt-2 lg:text-dt-5 lg:max-w-1/2">Haben Sie Fragen zum Beitritt zum Chor, zur Buchung eines Auftritts oder möchten Sie mehr über uns erfahren? Wir freuen uns auf Ihre Nachricht!</p>
 			<div class="w-full flex flex-col items-center justify-start min-[1200px]:flex-row min-[1200px]:items-stretch min-[1200px]:max-w-2/3 mt-8">
@@ -332,43 +332,69 @@
 						</div>
 					</div>
 				</div>
-				<div class="flex flex-col items-start justify-start w-full border-2 border-gv-border rounded-1 bg-white p-4 mt-4 min-[1200px]:mt-0">
+				<form action="https://formsubmit.co/alex.schuhmann@weppersdorf.de" method="POST" class="flex flex-col items-start justify-start w-full border-2 border-gv-border rounded-1 bg-white p-4 mt-4 min-[1200px]:mt-0">
 					<h1 class="text-dt-5 lg:text-dt-4">Senden Sie uns eine Nachricht</h1>
 					<div class="flex flex-col items-center justify-start w-full mt-2 lg:flex-row">
 						<div class="flex flex-col items-start justify-start w-full">
 							<p class="text-dt-5">Vorname</p>
-							<input class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-7" placeholder="Ihr Vorname">
+							<input class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-7" type="text" name="surname" placeholder="Ihr Vorname" required>
 						</div>
 						<div class="flex flex-col items-start justify-start w-full mt-2 lg:mt-0 lg:ml-2">
 							<p class="text-dt-5">Nachname</p>
-							<input class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-7" placeholder="Ihr Nachname">
+							<input class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-7" type="text" name="name" placeholder="Ihr Nachname" required>
 						</div>
 					</div>
 					<div class="flex flex-col items-start justify-start w-full mt-2">
-						<p class="text-dt-5">Telefonnummer (Optional)</p>
-						<input class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-7" placeholder="+49 (0) 123 456">
+						<p class="text-dt-5">E-Mail-Adresse</p>
+						<input class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-7" type="email" name="email" placeholder="ihre.email@beispiel.de" required>
 					</div>
 					<div class="flex flex-col items-start justify-start w-full mt-2">
 						<p class="text-dt-5">Betreff</p>
-						<input class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-7" placeholder="Betreff XYZ">
+						<input class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-7" type="text" name="subject" placeholder="Betreff XYZ" required>
 					</div>
+					<input type="text" name="_honeypot" style="display:none">
 					<div class="flex flex-col items-start justify-start w-full mt-2">
 						<p class="text-dt-5">Nachricht</p>
-						<textarea class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-8 resize-none overflow-y-auto" placeholder="Ihre Nachricht..."></textarea>
+						<textarea class="bg-gv-input-bg p-2 w-full rounded-1 outline-none text-dt-8 resize-none overflow-y-auto" type="text" name="message" placeholder="Ihre Nachricht..." required></textarea>
 					</div>
-					<button class="w-full flex items-center justify-center text-white text-dt-7 bg-gv-dark-turquoise p-1 rounded-1 mt-4">Nachricht senden <span class="icon text-dt-4 ml-2">send</span></button>
-				</div>
+					<input type="hidden" name="_next" value="http://localhost:5173">
+					<button type="submit" class="w-full flex items-center justify-center text-white text-dt-7 bg-gv-dark-turquoise p-1 rounded-1 mt-4 cursor-pointer">Nachricht senden <span class="icon text-dt-4 ml-2">send</span></button>
+				</form>
 			</div>
 		</section>
+		<footer class="w-full h-fit flex flex-col items-center justify-start p-5 lg:p-10 bg-gv-footer-bg">
+			<div class="flex flex-col w-full items-start justify-start min-[1250px]:flex-row min-[1250px]:items-stretch min-[1250px]:max-w-2/3">
+				<div class="flex flex-col w-full items-start justify-start">
+					<div class="flex w-full items-center justify-start">
+						<img class="w-10" src="/gesangverein_weppersdorf.svg" alt="Logo des Gesangverein Weppersdorf">
+						<p class="text-dt-7 text-white ml-2">Gesangverein Weppersdorf</p>
+					</div>
+					<p class="text-dt-10 text-gv-footer-shade mt-4 min-[1250px]:mr-2 min-[1750px]:mr-0">Seit 1924 ein leidenschaftlicher Traditionschor, der durch die Kraft der gemeinsamen Stimme und geteilten Harmonie schöne Musik zum Leben erweckt.</p>
+				</div>
+				<div class="w-full flex flex-col items-start justify-start mt-6 space-y-2 min-[1250px]:mt-0">
+					<p class="text-dt-7 font-medium text-white">Links</p>
+					<a href="https://www.instagram.com/g27_der_garagenchor/" target="_blank" class="text-dt-8 font-medium text-gv-footer-shade">Instagram</a>
+					<a href="#" target="_blank" class="text-dt-8 font-medium text-gv-footer-shade">Facebook</a>
+				</div>
+				<div class="w-full h-0.5 bg-gv-footer-accent mt-4 min-[1250px]:hidden"></div>
+				<div class="w-full flex flex-col items-start justify-start mt-6 space-y-2 min-[1250px]:mt-0">
+					<p class="text-dt-7 font-medium text-white">Rechtliches</p>
+					<a href="impressum.html" class="text-dt-8 font-medium text-gv-footer-shade">Impressum</a>
+					<a href="datenschutz.html" class="text-dt-8 font-medium text-gv-footer-shade">Datenschutz</a>
+				</div>
+			</div>
+			<div class="w-full h-0.5 bg-gv-footer-accent mt-4 min-[1250px]:max-w-2/3"></div>
+			<p class="text-dt-8 min-[1250px]:text-dt-7 text-white mt-2 text-center min-[1250px]:max-w-2/3">© 2025 Gesangverein Weppersdorf. Alle Rechte vorbehalten.</p>
+		</footer>
 		<!-- Mobile nav menu stuff -->
 		<div id="mobileMenu" class="fixed top-0 right-0 h-full w-3/4 bg-white flex flex-col items-end p-5 transform translate-x-full transition-transform duration-500 ease-out min-[1190px]:hidden z-101">
-			<button id="closeMenu" class="text-dt-3 flex items-center cursor-pointer font-medium">Schließen <span class="icon text-dt-2 ml-2 font-semibold">close</span></button>
-			<button class="text-dt-3 flex cursor-pointer font-medium mt-7">Startseite</button>
-			<button class="text-dt-3 flex cursor-pointer font-medium mt-7">Über Uns</button>
-			<button class="text-dt-3 flex cursor-pointer font-medium mt-7">Mitglieder</button>
-			<button class="text-dt-3 flex cursor-pointer font-medium mt-7">Veranstaltungen</button>
-			<button class="text-dt-3 flex cursor-pointer font-medium mt-7">Musik</button>
-			<button class="text-dt-3 flex cursor-pointer font-medium mt-7">Kontakt</button>
+			<button class="closeMenu text-dt-3 flex items-center cursor-pointer font-medium">Schließen <span class="icon text-dt-2 ml-2 font-semibold">close</span></button>
+			<a href="#startseite" class="closeMenu text-dt-3 flex cursor-pointer font-medium mt-7">Startseite</a>
+			<a href="#über_uns" class="closeMenu text-dt-3 flex cursor-pointer font-medium mt-7">Über Uns</a>
+			<a href="#mitglieder" class="closeMenu text-dt-3 flex cursor-pointer font-medium mt-7">Mitglieder</a>
+			<a href="#veranstaltungen" class="closeMenu text-dt-3 flex cursor-pointer font-medium mt-7">Veranstaltungen</a>
+			<a href="#musik" class="closeMenu text-dt-3 flex cursor-pointer font-medium mt-7">Musik</a>
+			<a href="#kontakt" class="closeMenu text-dt-3 flex cursor-pointer font-medium mt-7">Kontakt</a>
 		</div>
 		<div id="menuOverlay"
 		     class="fixed inset-0 bg-black z-40 opacity-0 pointer-events-none
